@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list p{
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 768px){
+    .list{
+        padding: 1rem 0;
+    }
+}

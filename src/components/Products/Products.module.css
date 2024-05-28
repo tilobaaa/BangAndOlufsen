@@ -1,0 +1,37 @@
+.image{
+    width: 100%;
+}
+
+.products{
+    padding: 1rem;
+}
+
+.footer{
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.link{
+    margin: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.link button{
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.link button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #ad5502;
+}

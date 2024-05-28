@@ -1,0 +1,56 @@
+.collections{
+    display: flex;
+    justify-content: space-around;
+}
+
+.collections h5{
+    margin: 0;
+    padding: 0;
+}
+
+.collections p{
+    letter-spacing: 0.15rem;
+
+}
+
+.image-div{
+    width: 35%;
+}
+.collections img{
+    height: 8rem;
+    width: 100%;
+  
+    
+}
+
+.text-div{
+    width: 50%;
+}
+
+.hide-para{
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    .collections{
+        width: 50%;
+    }
+
+    .collections img{
+        height: 40vh;
+    }
+
+    .collections p{
+        font-size: 1rem;
+    }
+
+    .collections h5{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .hide-para{
+        display: block;
+        font-size: 0.25rem;
+    }
+}

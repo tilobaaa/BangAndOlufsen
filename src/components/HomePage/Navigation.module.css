@@ -1,0 +1,30 @@
+.overnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav img {
+  height: 2.5rem;
+  width: auto;
+}
+
+.menu-icon {
+  font-size: larger;
+}
+
+.cart:hover{
+  cursor: pointer;
+}

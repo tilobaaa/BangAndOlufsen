@@ -1,0 +1,225 @@
+.home {
+  padding: 1rem;
+  background-size: cover;
+  /* height: 80vh; */
+}
+
+.description {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(252, 252, 252);
+  margin-top: 3rem;
+}
+
+.categories {
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.story-div {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.story-div p {
+  font-size: 1rem;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+}
+
+.story-div button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: none;
+}
+
+.abstract {
+  width: 90%;
+  height: 100vh;
+  align-self: center;
+  margin: 2rem auto;
+}
+
+.collection {
+  background-image: url("../../Images/darkwine.jpg");
+  text-align: left;
+  height: 80vh;
+  color: white;
+  padding: 2rem;
+  align-content: center;
+  margin: 2rem 0;
+}
+
+.collection-div {
+  padding: 0.5rem 1rem 1rem;
+  /* background-color: rgba(15, 13, 13, 0.792);
+    border-radius: 0.75rem; */
+}
+
+.collection h4 {
+  font-size: 2rem;
+  font-weight: light;
+}
+
+.collection p {
+  font-size: 1rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+
+.collection button {
+  background: none;
+  color: rgb(10, 0, 0);
+  border-radius: 25px;
+  border-color: white;
+  padding: 0.75rem 1.5rem;
+  border-color: white;
+  background-color: rgb(225, 217, 214);
+}
+
+.collection button:hover {
+  background-color: orange;
+}
+
+.cardDiv {
+  background-color: #f5f4f3;
+  padding: 2.5rem 1rem;
+}
+
+.products-col {
+  padding: 1rem;
+}
+
+.products-col div {
+  margin: 1.5rem 0;
+}
+
+.main {
+  padding: 2rem 1rem;
+  background-color: black;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  margin: -0.5rem 0;
+  background-color: white;
+  padding: 1rem;
+}
+
+.list-div {
+  padding: 2rem 0;
+  color: rgb(65, 63, 63);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top 0.3s, font-size 0.3s;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-container input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+}
+
+.input-container input:focus + .input-container label {
+  top: -20px;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .homer {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .categories {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  }
+
+  .story-div p {
+    font-size: 1.5rem;
+  }
+
+  .story-div h1 {
+    font-size: 4rem;
+    padding: 2rem 0;
+  }
+
+  .story-div button {
+    border: 1px solid;
+  }
+
+  .collection {
+    height: 120vh;
+  }
+
+  .collection-div {
+    width: 30vw;
+    margin: auto 3rem;
+    padding-right: 3rem;
+  }
+
+  .collection-div h4 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  .main-div{
+    margin: 0;
+    padding: 3rem;
+  }
+
+
+}

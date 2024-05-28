@@ -1,0 +1,69 @@
+.overnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav img {
+  height: 2.5rem;
+  width: auto;
+}
+
+.menu-icon {
+  font-size: larger;
+}
+
+.menu-options {
+  display: none;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  
+
+  .menu-div {
+    display: none;
+  }
+
+  .menu-options {
+    display: flex;
+  }
+
+  .menu-options p {
+    padding: 0 1rem 0 0;
+  }
+
+  .menu-paragraph{
+    position: relative;
+  }
+
+  .menu-paragraph::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    left: 0;
+    bottom: 0;
+    background-color: #000; /* Color of the underline */
+    transition: width 0.3s ease; /* Adjust the duration and timing function as needed */
+  }
+
+  .menu-paragraph:hover::after {
+    width: 30%;
+  }
+}
